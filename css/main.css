@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300);
 body {
     margin: 60px auto;
     width: 70%;
@@ -17,14 +20,19 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    color:black;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-style:italic;
 }
 p {
-    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
@@ -32,12 +40,31 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.post-list {
+  list-style: none;
+  font-size: 1em;
+}
+.post-list .post-link {
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+}
+.post-list .post-meta {
+  font-family: 'Roboto', sans-serif;
+  font-size: .75em;
+  font-weight:300;
+  font-style: italic;
+  color: #999;
+}
+.post a {
+  color:#22A7F0;
+}
+.page-image {
+  margin-left: 150px;
 }
 
-ul.posts li {
-    list-style: none;
+.meta {
+  text-align: center;
+  font-size:.8em;
+  color: #999;
 }
