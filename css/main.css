@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300);
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -26,11 +26,28 @@ h1 {
   text-align: center;
   font-size: 2.5em;
   font-family: 'Roboto', sans-serif;
+  font-weight:400;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
   font-weight:300;
-  font-style:italic;
+  font-weight: 500;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-weight: 500;
 }
 p {
     font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #333;
+}
+li {
+  font-family: 'Roboto', sans-serif;
     font-weight:400;
     font-size: 1em;
     line-height: 1.4em;
@@ -60,11 +77,22 @@ footer {
   color:#22A7F0;
 }
 .page-image {
-  margin-left: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .meta {
   text-align: center;
   font-size:.8em;
   color: #999;
+}
+.code {
+  margin-left: 20px;
+  font-size: .95em;
+  background-color: #eee;
+  font-family: 'Courier New', monospace;
+  padding: 0.17em;
+  word-wrap: break-word;
+  border-radius: 3px;
 }
