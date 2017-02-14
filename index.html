@@ -7,13 +7,13 @@ title: Vivekraj N
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed%}
       <li>
 				<h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> {{ forloop.index}} {{ post.title }}</a>
         </h2>
-        <span class="post-meta">POSTED ON {{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <!--<span class="post-meta">POSTED ON {{ post.date | date: "%b %-d, %Y" }}</span>-->
+        
 
       </li>
     {% endfor %}
